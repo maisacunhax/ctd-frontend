@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&family=Pacifico&family=Poppins:ital,wght@0,100;1,200&display=swap');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+header {
+    padding: 15px;
+    text-align: center;
+    font-family: "Fredoka One", sans-serif;
+    background-color: rgb(209, 232, 255);
+    font-size: 50px;
+  }
+
+legend {
+    padding: 15px;
+    text-align: left;
+    font-family: "Fredoka One", sans-serif;
+    font-size: 30px;
+}
+
+div {
+    margin: 10px;
+}
+
+button{
+    margin: 10px;
+    background-color: rgb(150, 200, 250);
+    color: #272932;
+    border: 1px solid transparent;
+    border-radius: 3px;
+    height: 3rem;
+    width: 6rem;
+    transition: .5s ease-in-out;
+}
+
+button:hover{
+    color: #000000;
+    background-color: #f3f4f7;
+}

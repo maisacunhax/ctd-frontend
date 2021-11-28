@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header> Cadastro </header>
+    <br>
+
+    <main>
+
+        <form>
+
+            <fieldset> 
+
+                <legend>Dados pessoais</legend>
+
+            <div>
+                <label for="username"> Nome: </label>
+                <input type="text" name="username" id="username" maxlength="100">
+            </div>
+            <div>
+                <label for="userEmail">E-mail:</label>
+                <input type="email" name="userEmail" id="userEmail">
+            </div>
+            <div>
+                <label for="phone"> Telefone: </label>
+                <input type="number" name="phone" id="phone">
+            </div>
+            <div>
+                <label for="birthDate">Data de Nascimento:</label>
+                <input type="date" name="birthDate" id="birthDate">
+            </div>
+            <div>
+                <label for="age">Possui mais de 18 anos?</label>
+                <select name="age" id="age">
+                <option value="1">Sim</option>
+                <option value="2">Não</option>
+            </select>
+            </div>
+            </fieldset>
+
+            <fieldset> 
+                    <legend>Interesses</legend>
+
+                <div>
+                <label for="interest">Ponto de interesse:</label>
+                <select name="interest" id="interest">
+                    <option value="1">Praias</option>
+                    <option value="2">Feiras de Artesanatos</option>
+                    <option value="3">Universidades</option>
+                    <option value="4">Teatros</option>
+                    <option value="5">Museus</option>
+                </select>
+                </div>
+                <div>
+                    <p>Qual é o propósito de sua viagem?</p>
+                    <input type="checkbox" name="intention" id="tourist">
+                    <label for="tourist">Turismo</label>
+                    <input type="checkbox" name="intention" id="resident">
+                    <label for="resident">Residência</label>
+                    <input type="checkbox" name="intention" id="student">
+                    <label for="student">Estudos</label>
+                </div>
+                </fieldset>
+
+            <button type="reset">Cadastrar</button>
+            <button type="submit">Limpar</button>
+
+        </form>
+
+    </main>
+
+</body>
+</html>
